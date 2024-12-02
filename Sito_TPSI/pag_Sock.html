@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Cosa sono le Socket?</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm custom-navbar">
+    <div class="container-fluid">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Cosa sono le Socket?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="differenze-tcp-udp.html">Differenze tra protocolli TCP e UDP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="modello-osi.html">Spiegazione del modello OSI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home Page</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Cosa sono le Socket?</h1>
+    <p class="lead">
+        Le **socket** sono un'interfaccia di programmazione (API) utilizzata per stabilire e gestire una comunicazione bidirezionale tra due dispositivi in rete.
+        Una socket è il punto finale di una connessione che consente il trasferimento di dati tra client e server.
+    </p>
+    <p>
+        Le socket sono fondamentali nel mondo delle reti informatiche, in quanto permettono agli sviluppatori di creare applicazioni di rete che possono scambiarsi informazioni in tempo reale.
+        Ogni socket è associata a un indirizzo IP e a un numero di porta specifici, il che garantisce la comunicazione tra processi su sistemi diversi.
+    </p>
+    <p>
+        Le socket supportano due protocolli principali: **TCP** (Transmission Control Protocol) e **UDP** (User Datagram Protocol).
+        TCP offre una comunicazione affidabile, mentre UDP si concentra sulla velocità.
+    </p>
+
+    <div class="text-center mt-4">
+        <img src="https://via.placeholder.com/600x300" alt="Diagramma di Socket" class="img-fluid rounded shadow">
+    </div>
+
+    <div class="mt-4">
+        <h2>Esempio pratico</h2>
+        <p>
+            Un esempio comune dell'uso delle socket è un'applicazione di chat. Il server utilizza una socket per ascoltare i messaggi dai client,
+            mentre i client utilizzano socket per inviare messaggi al server.
+        </p>
+        <div class="text-center">
+            <button onclick="window.location.href='differenze-tcp-udp.html'" class="btn btn-primary mt-2">Vai a TCP e UDP</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-cVKIPhG81rKrOSn0H4zYfTw+KkqLR9GPiEglsjRE3S6SpzOF24C1S+KCqs5Iw9Ci" crossorigin="anonymous"></script>
+</body>
+</html>
