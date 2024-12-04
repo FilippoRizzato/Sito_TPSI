@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Modello OSI</title>
+</head>
+<body>
+<div class="text-center mb-4">
+    <h1>Il Modello OSI (Open Systems Interconnection)</h1>
+</div>
+<nav class="navbar navbar-expand-sm custom-navbar">
+    <div class="container-fluid">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="pag_Sock.html">Cosa sono le Socket?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Cli_Sev.html">Architettura Client-Server</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Spiegazione del modello OSI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="home_Page.html">Home Page</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row mb-3">
+        <div class="col-12">
+            <h2>Cos'è il Modello OSI?</h2>
+            <p>Il modello OSI (Open Systems Interconnection) è un modello di riferimento a 7 livelli che descrive i vari strati della comunicazione in una rete di computer. Ogni livello ha funzioni specifiche e si interfaccia con i livelli superiori e inferiori per gestire la trasmissione dei dati.</p>
+            <p>Il modello è stato creato per standardizzare le comunicazioni tra i sistemi di rete, consentendo ai dispositivi e software di interagire in modo prevedibile e strutturato. I 7 livelli del modello OSI sono:</p>
+            <ol>
+                <li><strong>Livello 1: Fisico</strong> - Gestisce la trasmissione dei dati attraverso i media fisici.</li>
+                <li><strong>Livello 2: Data Link</strong> - Gestisce l'accesso al mezzo e la correzione degli errori.</li>
+                <li><strong>Livello 3: Rete</strong> - Gestisce l'instradamento dei pacchetti tra le reti.</li>
+                <li><strong>Livello 4: Trasporto</strong> - Garantisce una trasmissione affidabile dei dati.</li>
+                <li><strong>Livello 5: Sessione</strong> - Gestisce le sessioni di comunicazione tra applicazioni.</li>
+                <li><strong>Livello 6: Presentazione</strong> - Si occupa della sintassi dei dati e della codifica.</li>
+                <li><strong>Livello 7: Applicazione</strong> - Fornisce servizi di rete direttamente agli utenti finali.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-12">
+            <h3>Carosello delle Immagini dei 7 Livelli del Modello OSI</h3>
+            <div id="osiCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.techradar.com/review/what-is-osi-model-7-layers-of-osi-and-how-it-works" alt="Livello 1: Fisico" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 1: Fisico</h5>
+                            <p>Gestisce la trasmissione di segnali elettrici e l'interfaccia fisica con il mezzo di comunicazione.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello2.jpg" alt="Livello 2: Data Link" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 2: Data Link</h5>
+                            <p>Gestisce l'indirizzamento dei dati nel mezzo di trasmissione e la gestione degli errori.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello3.jpg" alt="Livello 3: Rete" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 3: Rete</h5>
+                            <p>Gestisce l'instradamento dei pacchetti attraverso diverse reti.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello4.jpg" alt="Livello 4: Trasporto" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 4: Trasporto</h5>
+                            <p>Garantisce una trasmissione sicura e affidabile dei dati tra i dispositivi di rete.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello5.jpg" alt="Livello 5: Sessione" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 5: Sessione</h5>
+                            <p>Gestisce e mantiene la sessione di comunicazione tra le applicazioni.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello6.jpg" alt="Livello 6: Presentazione" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 6: Presentazione</h5>
+                            <p>Si occupa della formattazione, compressione e codifica dei dati per la trasmissione.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://example.com/livello7.jpg" alt="Livello 7: Applicazione" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Livello 7: Applicazione</h5>
+                            <p>Fornisce servizi agli utenti finali come l'accesso ai file, l'email e la navigazione web.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#osiCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Precedente</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#osiCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Successivo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <p>&copy; 2024 Introduzione al Modello OSI. All Rights Reserved.</p>
+    <p>Realizzato con amore per l'informatica.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-cVKIPhG81rKrOSn0" crossorigin="anonymous"></script>
+</body>
+</html>
