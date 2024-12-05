@@ -118,3 +118,18 @@ footer {
     margin-top: auto; /* Spinge il footer verso il basso */
     background-color: #343a40; /* Aggiungi un colore di sfondo per il footer */
 }
+.custom-carousel img {
+    object-fit: cover;
+    height: 400px;
+}
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.section-content .left-column {
+    width: 48%;
+}
+.section-content .right-column {
+    width: 48%;
+}
