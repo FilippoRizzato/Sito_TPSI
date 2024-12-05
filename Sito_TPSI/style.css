@@ -55,11 +55,11 @@ p {
 }
 
 /* Immagini */
-img {
+/*img {
     border: 3px solid #007bff;
     border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+}*/
 
 img:hover {
     transform: scale(1.1);
@@ -98,4 +98,23 @@ button:hover {
 button:focus {
     outline: none;
     box-shadow: 0 0 4px #2575fc;
+}
+ /* Imposta il body come contenitore flex */
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Il body deve occupare l'intera altezza della finestra */
+    margin: 0; /* Rimuove il margine di default */
+}
+
+/* La parte centrale della pagina dovrebbe crescere e prendere lo spazio disponibile */
+.container.mt-4 {
+    flex-grow: 1; /* Consente alla container di espandersi e occupare lo spazio disponibile */
+    overflow-y: auto; /* Permette lo scrolling verticale se il contenuto è troppo grande */
+}
+
+/* Imposta il footer sempre in fondo */
+footer {
+    margin-top: auto; /* Spinge il footer verso il basso */
+    background-color: #343a40; /* Aggiungi un colore di sfondo per il footer */
 }
